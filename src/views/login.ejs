@@ -1,0 +1,54 @@
+<%- include('includes/head') %>
+<%- include('includes/nav') %>
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-2"></div>
+    
+        <div class="col-lg-8 my-3">
+            <h1 class="text-center">Login</h1>
+            <p class="text-center lead">Faça login ou crie sua conta abaixo</p>
+
+            <div class="row">
+                <div class="col-lg">
+                    <h4 class="text-center">Faça seu cadastro</h4>
+                    <form>
+                        <div class="mb-3">
+                            <label for="emailCadastro" class="form-label">Endereço de Email</label>
+                            <input type="email" class="form-control" id="emailCadastro" aria-describedby="emailHelp">
+                        </div>
+                       
+                        <div class="mb-3">
+                            <label for="confirmarEmail" class="form-label">Confirmar endereço de Email</label>
+                            <input type="email" class="form-control" id="confirmarEmail" aria-describedby="emailHelp">
+                        </div>
+                       
+                        <div class="mb-3">
+                            <label for="senhaCadastro" class="form-label">Senha</label>
+                            <input type="password" class="form-control" id="senhaCadastro">
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary mx-auto d-block">Criar conta</button>
+                    </form>
+                </div> 
+                
+                <div class="col-lg">
+                    <h4 class="text-center">Entrar no sistema</h4>
+                    <form>
+                        <div class="mb-3">
+                            <label for="emailLogin" class="form-label">Endereço de Email</label>
+                            <input type="email" class="form-control" id="emailLogin" aria-describedby="emailHelp">
+                        </div>
+                       
+                        <div class="mb-3">
+                            <label for="senhaLogin" class="form-label">Senha</label>
+                            <input type="password" class="form-control" id="senhaLogin">
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary mx-auto d-block">Acessar</button>
+                    </form>
+                </div>    
+            </div>
+        </div>
+    </div>
+</div>
